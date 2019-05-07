@@ -1,0 +1,82 @@
+.header_top{
+    padding: 35px;
+    background-color: #f7f7f7;
+    @media screen and (max-width: 576px) {
+        text-align: center;
+    }
+}
+
+.header_top_text{
+    font-size: 12px;
+    color: #95979a;
+}
+
+.header_top_text::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;    
+    margin-top: 4px;  
+    margin-left: -25px;  
+    background: url(/img/icon_info_green.png) center 0 no-repeat; 
+  
+}
+
+.header_top_time::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;    
+    margin-top: 4px;  
+    margin-left: -25px;  
+    background: url(/img/icon_time.png) center 0 no-repeat;   
+}
+
+.header_top_time{
+    font-size: 12px;
+    color: #95979a;
+}
+
+.header_top_phone::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;    
+    margin-top: 10px;  
+    margin-left: -40px;  
+    background: url(/img/icon_phone.png) center 0 no-repeat;   
+}
+
+.header_top_phone{
+    font-size: 12px;
+    color: #000;
+}
+
+.number{
+    font-size: 18px;
+    color: #000;
+    font-weight: 450;
+    margin-bottom: 0px;
+    a{
+        text-decoration: none;
+        color: #499e10;
+    }
+}
+
+.button_consultant{
+    padding: 15px 0px 0px 0px;
+    background: transparent;
+    border: none;
+    float: right;
+    a{
+        border: 1px solid #499e10;
+        padding: 10px 30px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: #499e10;
+        &:hover{
+            background-color: #499e1015;
+            transition: 0.3s;
+        }
+    }
+}

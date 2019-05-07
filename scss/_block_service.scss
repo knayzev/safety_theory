@@ -1,0 +1,153 @@
+.box_service {
+    background-color: #499e10;
+}
+
+.headline_service {
+    font-size: 30px;
+    color: #fff;
+}
+
+.service_info {
+    font-size: 14px;
+    padding: 15px 0px 0px 0px;
+    color: #fff;
+}
+
+.line_yellow {
+    border-bottom: 0.5px solid #ffb200;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+.service_info_two {
+    font-size: 14px;
+    color: #fff;
+}
+
+.button_service_consultant {
+    background-color: transparent;
+    border: none;
+    padding: 35px 0px 35px;
+
+    a {
+        color: #fff;
+        font-size: 16px;
+        border: 0.5px solid #fff;
+        border-radius: 25px;
+        padding: 15px 45px;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.082);
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.178);
+            transition: 0.3s;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            -webkit-transition: all 0.3s ease-out;
+        }
+    }
+}
+
+.box_bg_slider {
+    background-color: #fff;
+}
+
+
+.bg_carousel_content_color {
+    background-color: #20202085;
+}
+
+.bg_carousel_content_one {
+    background: url(/img/bg_slider_1.png) no-repeat;
+    background-size: cover;
+}
+
+.bg_carousel_content_two {
+    background: url(/img/bg_slider_1.png) no-repeat;
+    background-size: cover;
+}
+
+.bg_carousel_content_three {
+    background: url(/img/bg_slider_1.png) no-repeat;
+    background-size: cover;
+}
+
+.box_bg_info_slider {
+    padding: 90px;
+}
+
+.box_info_slider_content {
+    background-color: #434343;
+    padding: 35px;
+}
+
+.headline_slider {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+.line_yellow_slider {
+    border-bottom: 0.5px solid #ffb200;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40px;
+}
+
+.box_info_slider_text {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+.carousel-control-prev-icon {
+    background: url(/img/icon_arrow.png) no-repeat;
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    width: 45px;
+    height: 45px;
+    // margin-right: 25px;
+}
+
+.carousel-control-next-icon {
+    background: url(/img/icon_arrow.png) no-repeat;
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    width: 65px;
+    height: 65px;
+    // margin-right: 25px;
+
+}
+
+
+.button_order{
+    background-color: transparent;
+    border: none;
+    padding: 35px 0px 35px;
+    a {
+        color: #ffb200;
+        font-size: 16px;
+        border: 0.5px solid #ffb200;
+        border-radius: 25px;
+        padding: 15px 45px;
+        text-decoration: none;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.178);
+            transition: 0.3s;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            -webkit-transition: all 0.3s ease-out;
+        }
+    }
+}
