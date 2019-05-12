@@ -338,28 +338,20 @@ body {
 .box_button_service {
   border-radius: 12px;
   background-color: #fff;
-  padding: 30px;
+  padding: 30px 15px;
   cursor: pointer; }
-  .box_button_service:hover {
-    border: 0.5px solid #499e10;
-    transition: 0.3s;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out; }
 
 .button_service_text {
   font-size: 18px;
-  color: #434343;
-  padding: 0px 0px 0px 65px; }
-
-.button_service_text::before {
-  content: '';
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  left: 0;
-  margin-left: 25px;
-  background: url(/img/icon-01.svg) center 0 no-repeat; }
+  color: #434343; }
 
 .icon_service {
-  width: 80px; }
+  width: 60px;
+  text-align: left; }
+
+.carousel .carousel-control-next {
+  margin-right: 100px; }
+
+.additional_text {
+  font-size: 10px;
+  font-weight: 300; }
