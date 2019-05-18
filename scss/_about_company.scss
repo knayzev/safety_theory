@@ -1,0 +1,98 @@
+.box_about_company{
+    background: url(/img/about_company.png) no-repeat;
+    background-size: cover;
+    padding: 60px 0px 60px 0px;
+}
+
+.headline_content_block_company{
+    font-size: 30px;
+    font-weight: 350;
+    color: #434343;
+}
+
+.subtitle_about_company{
+    font-size: 22px;
+    font-weight: 300;
+    color: #434343;
+    padding: 25px 0px;
+}
+
+.box_info_about_company{
+    border: 1px solid #ffb200;
+    padding: 35px;
+}
+
+.box_info_about_company{
+    font-size: 22px;
+    font-weight: 350;
+    color: #434343;
+}
+
+.list_about_info_company ul{
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+.list_about_info_company ul li{
+   font-size: 18px;
+   line-height: 1.9;
+   font-weight: 300;
+}
+
+.box_info_about_company_right_column{
+    padding: 0px 35px 0px;
+}
+
+.button_price{
+    background: transparent;
+    border: none;
+    padding: 0px 0px 25px;
+    a{
+        font-size: 18px;
+        text-decoration: none;
+        color: #434343;
+        padding: 10px 30px;
+        border: 0.5px solid #434343;
+        border-radius: 25px;
+        &:hover{
+            background-color: #5f5f5f13;
+            transition: 0.3s;
+        }
+    }
+}
+
+.icon_price{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.text_info_right_column{
+    font-size: 18px;
+    font-weight: 350;
+    color: #434343;
+    padding: 0px 0px 20px;
+}
+
+.any_questions{
+  font-size: 18px;
+  font-weight: 500;
+  color: #499e10;
+  padding: 0px 0px 10px;  
+}
+
+.button_consultant_about_company{
+    padding: 15px 0px 0px 0px;
+    background: transparent;
+    border: none;  
+    a{
+        border: 1px solid #499e10;
+        padding: 10px 30px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: #499e10;
+        &:hover{
+            background-color: #499e1015;
+            transition: 0.3s;
+        }
+    }
+}
