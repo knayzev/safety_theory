@@ -1,0 +1,111 @@
+.reviews_box_img {
+    background: url(/img/revievs.jpg) no-repeat;
+    background-size: cover;
+}
+
+.reviews_color {
+    background-color: #3f3f3fa1;
+    padding: 60px 0px 60px 0px;
+}
+
+.subtitle_reviews {
+    font-size: 14px;
+    padding: 15px 0px 25px 0px;
+    color: #fff;
+}
+
+.box_reviews {
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+    &:hover {
+        box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+    }
+}
+
+.date_reviews {
+    font-size: 12px;
+    font-weight: 350;
+    color: #aeaeae;
+    padding: 25px 25px 0px;
+    display: inline-block;
+}
+
+.name_company {
+    font-size: 12px;
+    font-weight: 450;
+    text-transform: uppercase;
+    color: #499e10;
+    display: inline-block;
+    padding: 25px 25px 0px;
+    float: right;
+}
+
+.box_text_reviews {
+    font-size: 14px;
+    font-weight: 350;
+    color: #252525;
+    padding: 25px;
+}
+
+.open_reviews {
+    background: transparent;
+    border: none;
+    padding: 0px 25px 25px;
+
+    a {
+        border: 1px solid #858585;
+        padding: 7px 15px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        text-decoration: none;
+        color: #858585;
+
+        &:hover {
+            background-color: #eee;
+            transition: 0.2s;
+            -webkit-transition: 0.2s;
+            -moz-transition: 0.2s;
+            -ms-transition: 0.2s;
+            -o-transition: 0.2s;
+        }
+    }
+}
+
+
+.button_all_reviews {
+    background-color: transparent;
+    border: none;
+    padding: 45px 0px 10px;
+    text-align: center;
+
+    a {
+        border: 1px solid #ffffff;
+        font-size: 16px;
+        padding: 10px 45px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        text-decoration: none;
+        color: #ffffff;
+
+        &:hover {
+            background-color: #ffffff15;
+            transition: 0.3s;
+        }
+    }
+}

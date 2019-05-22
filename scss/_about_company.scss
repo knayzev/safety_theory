@@ -61,6 +61,9 @@
     }
 }
 
+
+
+
 .icon_price{
     width: 20px;
     margin-right: 10px;
@@ -84,12 +87,16 @@
     padding: 15px 0px 0px 0px;
     background: transparent;
     border: none;  
-    a{
+    a{      
         border: 1px solid #499e10;
         padding: 10px 30px;
-        border-radius: 20px;
         text-decoration: none;
         color: #499e10;
+        border-radius: 20px;
+        -webkit-border-radius:20px;
+        -moz-border-radius:20px;
+        -ms-border-radius:20px;
+        -o-border-radius:20px;    
         &:hover{
             background-color: #499e1015;
             transition: 0.3s;
