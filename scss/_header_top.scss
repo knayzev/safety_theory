@@ -2,8 +2,7 @@
     padding: 35px;
     background-color: #f7f7f7;
     @media screen and (max-width: 768px) {
-        text-align: center;
-        padding: 20px;
+        text-align: center;  
     }
     @media screen and (max-width: 576px) {
         text-align: center;
@@ -82,11 +81,17 @@
     }
 }
 
+.header_button{
+    text-align: right;
+    @media screen and (max-width: 576px) {
+        text-align: center;
+     }
+}
+
 .button_consultant{
     padding: 15px 0px 0px 0px;
     background: transparent;
-    border: none;
-    float: right;
+    border: none;  
     a{
         @media screen and (max-width: 1200px) {
             padding: 10px 15px;

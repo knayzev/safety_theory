@@ -1,22 +1,240 @@
-.footer_box{
-    padding: 90px;
-    background-color: #f7f7f7;
+.footer_box_bg {
+    padding: 45px;
+    background-color: #ffffff;
+
+    @media screen and (max-width: 992px) {
+        padding: 25px 15px 25px;
+    } 
 }
 
-.text_footer_for_logo{
+.box_footer_info {
+    padding: 25px 0px 0px;
+    @media screen and (max-width: 992px) {
+        padding: 10px 0px 0px;
+    } 
+}
+
+.footer_block_items {
+    padding: 0px 0px 15px;
+
+    @media screen and (max-width: 1200px) {
+        padding: 15px 0px 15px;
+    }
+}
+
+.text_footer_for_logo {
     font-size: 12px;
     color: #3d3d3d;
     padding: 25px 0px 10px;
 }
 
-.text_motto{
-    font-size: 14px;
+.text_motto {
+    font-size: 12px;
     color: #3d3d3d;
 }
 
-.text_motto_theory{
-    font-size: 14px;
+.text_motto_theory {
+    font-size: 12px;
     color: #3d3d3d;
     font-weight: 500;
     padding: 0px 10px 0px;
+}
+
+.headline_footer_news {
+    font-size: 14x;
+    color: #3d3d3d;
+}
+
+
+.img_size {
+
+    // width: 235px;
+    // height: 160px;
+    @media screen and (max-width: 567px) {
+        width: 100%;
+    }
+}
+
+.headline_news_for_img {
+    color: #fff;
+    padding: 7px 25px;
+    text-align: left;
+    position: absolute;
+    left: 15px;
+    top: 55px;
+}
+
+.box_contacti_footer {
+    background-color: #16376a;
+    padding: 55px 0px 55px;
+}
+
+.number_contacti_footer {
+    a {
+        font-size: 26px;
+        font-weight: 550;
+        color: #3d3d3d;
+        text-decoration: none;
+
+        &:hover {
+            color: #499e10;
+            transition: 0.3s;
+            -webkit-transition: 0.3s;
+            -moz-transition: 0.3s;
+            -ms-transition: 0.3s;
+            -o-transition: 0.3s;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        text-align: center;
+    }
+
+}
+
+.icon_footer {
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
+}
+
+.footer_headline_for_info {
+    font-size: 12px;
+    color: #499e10;
+}
+
+.mail_footer {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+}
+
+.number_footer {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 0px;
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+}
+
+.adres_footer {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.work_footer {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+
+.about_us_footer {
+    font-size: 14px;
+    font-weight: 400;
+    color: #252525;
+
+}
+
+.box_footer_about_us {
+    padding: 35px 0px 35px;
+    @media screen and (max-width: 1200px) {
+        padding: 0px 0px 15px;
+    }
+}
+
+.text_about_us_footer {
+    font-size: 12px;
+    font-weight: 350;
+    color: #3d3d3d;
+    margin-top: 15px;
+}
+
+.line_footer {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+    @media screen and (max-width: 992px) {
+        margin-bottom: 0px;
+    }
+}
+
+.date_news_footer {
+    font-size: 12px;
+    font-weight: 350;
+    color: #3d3d3d;
+    padding: 25px 0px 5px;
+    margin-bottom: 0px;
+}
+
+.news_headline_footer {
+
+    a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #499e10;
+        font-weight: 400;
+
+        &:hover {
+            color: #2e6609;
+            transition: 0.2s;
+            -webkit-transition: 0.2s;
+            -moz-transition: 0.2s;
+            -ms-transition: 0.2s;
+            -o-transition: 0.2s;
+        }
+    }
+}
+
+.line_basement{
+    border-bottom: 1px solid #eee;
+    margin-top: 10px;
+}
+
+.box_basement_bottom{
+    padding: 25px 0px 0px;
+}
+
+.rights_text{
+    font-size: 12px;
+    color: #3d3d3d;
+}
+
+.security_policy{
+    a{
+        color: #3d3d3d;
+        font-size: 12px;
+    }
+}
+
+.box_news_footer_content{
+    @media screen and (max-width: 1200px) {
+        padding: 15px 0px 0px;
+    }
+}
+
+.box_text_to_company{
+    @media screen and (max-width: 1200px) {
+        padding: 0px 0px 25px;
+    }
+}
+
+.column_name_footer{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3d3d3d;
+    @media screen and (max-width: 1200px) {
+        padding: 15px 0px 0px;
+    }
 }

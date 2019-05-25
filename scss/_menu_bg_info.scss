@@ -1,13 +1,12 @@
 
-.menu_bg {
- 
+.menu_bg { 
     background-color: #fff;
     // border-radius: 7px;  
 
     @media screen and (max-width: 992px) {
-        padding: 15px 0px;
+        padding: 5px 0px;
         margin-bottom: 0px;
-        background-color: transparent;
+        background-color: #fff;
     }
 }
 
@@ -59,23 +58,33 @@
     }
 }
 
+.navbar-collapse ul>li{
+    @media screen and (max-width: 992px) {
+        padding: 0px 15px;
+    }
+}
+
 
 .navbar-dark .navbar-nav .nav-link .navbar-dark .navbar-nav .nav-link:hover {
     color: #39567e;
 }
 
-.navbar-dark .navbar-toggler {
-    background-color: transparent;
+.navbar-dark .navbar-toggler {  
     border: none;
     border-radius: 0px;
     box-shadow: none;
     outline: none;
+    &:focus{
+        box-shadow: none;
+        outline: none;
+    }
 }
 
-.navbar-dark .navbar-toggler-icon {
-    background: url(/static/img/burger.svg) no-repeat;
-    background-size: cover;
-    margin-left: 10px;
+
+
+.navbar-toggler-icon {
+    background: url(/img/burger.svg) no-repeat;
+    background-size: cover;  
 }
 
 .menu__navbar ul {

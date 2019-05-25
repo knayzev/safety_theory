@@ -1,60 +1,70 @@
-.header_bg_info{
+.header_bg_info {
     background: url(/img/header_bg_img.png) no-repeat;
     background-size: cover;
     padding: 25px;
+    @media screen and (max-width: 992px) {
+        padding: 15px 5px 15px;
+    }    
 }
 
-.box_green_info_bg{
-padding: 136px 0px;
+.box_green_info_bg {
+    padding: 136px 0px;
 }
 
-.box_info_green{
+.box_info_green {
     background-color: #499e10;
     padding: 90px 65px;
+    @media screen and (max-width: 992px) {
+        padding: 25px;
+    }   
 }
 
-.box_headline_name{
+.box_headline_name {
     font-size: 24px;
-    color: #fff;    
+    color: #fff;
 }
 
-.box_subtitle{
+.box_subtitle {
     font-size: 18px;
     color: #fff;
     font-weight: 300;
     padding: 15px 0px 25px;
 }
 
-.box_pops{
+.box_pops {
     font-size: 18px;
     color: #fff;
-    font-weight: 300;    
+    font-weight: 300;
 }
 
-.box_motto{
+.box_motto {
     font-size: 18px;
     font-weight: 450;
     color: #fff;
     padding: 0px 15px;
 }
 
-.button_service{
+.button_service {
     background-color: transparent;
     border: none;
-    a{
+    a {
         color: #fff;
         font-size: 16px;
         border: 0.5px solid #fff;
-        border-radius: 25px;        
+        border-radius: 25px;
         padding: 15px 45px;
         text-decoration: none;
-        background-color: rgba(255, 255, 255, 0.082);
-        &:hover{
+        background-color: rgba(255, 255, 255, 0.082);     
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        &:hover {
             background-color: rgba(255, 255, 255, 0.178);
             transition: 0.3s;
             -moz-transition: all 0.3s ease-out;
             -o-transition: all 0.3s ease-out;
-            -webkit-transition: all 0.3s ease-out;         
-        }
+            -webkit-transition: all 0.3s ease-out;
+        }        
     }
 }

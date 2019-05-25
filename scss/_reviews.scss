@@ -6,6 +6,9 @@
 .reviews_color {
     background-color: #3f3f3fa1;
     padding: 60px 0px 60px 0px;
+    @media screen and (max-width: 992px) {
+        padding: 25px 0px 25px;
+     }
 }
 
 .subtitle_reviews {
@@ -29,6 +32,9 @@
         -moz-transition: 0.2s;
         -ms-transition: 0.2s;
         -o-transition: 0.2s;
+    }
+    @media screen and (max-width: 1200px) {
+       margin-bottom: 25px;
     }
 }
 
@@ -108,4 +114,7 @@
             transition: 0.3s;
         }
     }
+    @media screen and (max-width: 992px) {
+       padding: 0px;
+     }
 }

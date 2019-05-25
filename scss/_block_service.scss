@@ -34,7 +34,6 @@
     background-color: transparent;
     border: none;
     padding: 35px 0px 35px;
-
     a {
         color: #fff;
         font-size: 16px;
@@ -43,7 +42,10 @@
         padding: 15px 45px;
         text-decoration: none;
         background-color: rgba(255, 255, 255, 0.082);
-
+        @media screen and (max-width: 1200px) {
+            padding: 12px 25px;
+            font-size: 14px;
+        }
         &:hover {
             background-color: rgba(255, 255, 255, 0.178);
             transition: 0.3s;
@@ -52,6 +54,7 @@
             -webkit-transition: all 0.3s ease-out;
         }
     }
+    
 }
 
 .box_bg_slider {
@@ -80,6 +83,9 @@
 
 .box_bg_info_slider {
     padding: 50px 0px 50px 110px;
+    @media screen and (max-width: 1200px) {
+        padding: 25px;
+     }
 }
 
 .box_info_slider_content {
@@ -159,9 +165,10 @@
 
 .block_bg_service_button{
     padding: 60px;
-    background-color: #f7f7f7;
-    @media screen and (max-width: 1100px) {
+    background-color: #f7f7f7; 
+    @media screen and (max-width: 992px) {
       display: none;
+      padding: 35px;
       }
 }
 
@@ -183,11 +190,17 @@
         -ms-transition: 0.2s;
         -o-transition: 0.2s;
 }
+@media screen and (max-width: 1200px) {
+    margin-bottom: 25px;
+       }
 }
 
 .button_service_text{
     font-size: 18px;
     color: #434343;    
+    @media screen and (max-width: 1200px) {
+        font-size: 14px;
+        }
 }
 
 
