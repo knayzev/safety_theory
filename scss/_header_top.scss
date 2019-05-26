@@ -1,7 +1,7 @@
 .header_top{
     padding: 35px;
     background-color: #f7f7f7;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
         text-align: center;  
     }
     @media screen and (max-width: 576px) {
@@ -52,6 +52,11 @@
      }
 }
 
+.icon_header_small{
+    margin-right: 7px;
+    margin-top: 4px;
+}
+
 // .header_top_phone::before {
 //     content: '';
 //     position: absolute;
@@ -83,7 +88,7 @@
 
 .header_button{
     text-align: right;
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 767px) {
         text-align: center;
      }
 }

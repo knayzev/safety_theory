@@ -3,35 +3,82 @@
         <div class="row">
             <div class="col-sm-3 col-xl-2">
                 <div class="header_top_logo">
-<a href="#">
-        <img src="/img/logo.png" alt="">
-</a>
+                    <a href="#">
+                        <img src="/img/logo.png" alt="">
+                    </a>
                 </div>
             </div>
-            <div class="col-sm-3 col-xl-3">
-                <div class="header_top_text">
-                    <img src="/img/icon_info_green.png" alt="">
-                    Выполняем большой объем общестроительных
-                    работ на территории Москвы и Московской области.
+            <div class="col-md-3 col-xl-3">
+                <div class="header_top_items">
+                    <div class="media">
+                        <img src="/img/icon_info.png" class="icon_header_small" alt="">
+                        <div class="media-body">
+                            <div class="header_top_text">
+                                <img src="/img/icon_info_green.png" alt="">Выполняем большой объем общестроительных
+                                работ на территории России, Москвы и Московской области.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-2 col-xl-3">
-                <div class="header_top_time">
-                    Режим работы: <br>
-                    Пн – Вс: с 9:00 до 18:00
-                </div>
-            </div>
-            <div class="col-sm-2 col-xl-2">
+            <div class="col-md-2 col-xl-2">
                 <div class="header_top_phone">
                     Телефон
                 </div>
                 <p class="number"><a href="tel:+7 (499) 391-34-05" title="Позвонить">+7 (499) 391-34-05</a></p>
+                <p class="number"><a href="tel:+7 (916) 869-48-91" title="Позвонить">+7 (916) 869-48-91</a></p>
             </div>
-            <div class="col-sm-2 col-xl-2">
+            <div class="col-md-2 col-xl-3">
+                <div class="header_top_items">
+                    <div class="media">
+                        <img src="/img/icon_time.png" class="icon_header_small" alt="">
+                        <div class="media-body">
+                            <div class="header_top_time">
+                                Режим работы
+                            </div>
+                            <p class="work_footer">
+                                Пн – Вс: с 9:00 до 18:00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-xl-2">
                 <div class="header_button">
-                    <button class="button_consultant">
-                        <a href="#">Консультация</a>
-                    </button>
+                    <div class="card-body">
+                        <div class="button_consultant">
+                            <a data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                                href="javascript:;">Консультация</a>
+                        </div>
+                        <div style="display: none;" id="animatedModal" class="animated-modal">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="headline_modal">
+                                        <p>Консультация специалиста</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p class="modal_subtitle">Вам нужна консультация? Оставьте свои контактные данные, и
+                                        наш специалист свяжется с вами в ближайшее время.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p> <input type="text" value="" name="hi1" class="form-control"
+                                            title="Введите ваше Имя" placeholder="Ваше имя"></p>
+                                    <p> <input type="text" value="" name="hi1" class="form-control"
+                                            title="Введите номер телефона" id="phone" placeholder="Номер телефона"></p>
+                                    <p><input data-fancybox-close="" type="button" class="to_send_modal_window"
+                                            title="Отправить" value="Отправить"></p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

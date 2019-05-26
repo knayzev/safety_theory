@@ -21,6 +21,9 @@
         transition: 0.3s;
         box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
     }
+    @media screen and (max-width: 1200px) {
+        margin-bottom: 25px;
+    }
 }
 
 .tag{
@@ -93,4 +96,7 @@
         transition: 0.3s;
     }
    }
+   @media screen and (max-width: 1200px) {
+    padding: 25px;
+}
 }

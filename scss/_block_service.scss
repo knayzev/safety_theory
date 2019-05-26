@@ -5,6 +5,9 @@
 
 .box_service_content_left_column{
     padding: 60px 0px 60px 0px;
+    @media screen and (max-width: 1420px) {
+        padding: 35px;
+    }   
 }
 
 .headline_service {
@@ -43,9 +46,8 @@
         text-decoration: none;
         background-color: rgba(255, 255, 255, 0.082);
         @media screen and (max-width: 1200px) {
-            padding: 12px 25px;
-            font-size: 14px;
-        }
+            padding: 15px 15px;
+        } 
         &:hover {
             background-color: rgba(255, 255, 255, 0.178);
             transition: 0.3s;
@@ -91,6 +93,9 @@
 .box_info_slider_content {
     background-color: #434343;
     padding: 45px;
+    @media screen and (max-width: 1420px) {
+        padding: 35px;
+    } 
 }
 
 .headline_slider {
@@ -99,6 +104,9 @@
     color: #fff;
     text-transform: uppercase;
     line-height: 1.4;
+    @media screen and (max-width: 992px) {
+        font-size: 26px;
+    } 
 }
 
 .line_yellow_slider {
@@ -106,12 +114,19 @@
     margin-top: 20px;
     margin-bottom: 20px;
     width: 40px;
+    @media screen and (max-width: 1200px) {
+        display: none;
+    } 
 }
 
 .box_info_slider_text {
     font-size: 16px;
     color: #fff;
     font-weight: 300;
+    line-height: 1.8;
+    @media screen and (max-width: 1200px) {
+        font-size: 14px;
+    } 
 }
 
 
@@ -211,6 +226,9 @@
 
 .carousel .carousel-control-next{
     margin-right: 100px;
+    @media screen and (max-width: 1200px) {
+        margin: 0;
+    } 
 }
 
 .additional_text{

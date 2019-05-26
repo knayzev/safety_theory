@@ -1,0 +1,100 @@
+.headline_modal {
+  font-size: 26px;
+  font-weight: 550;
+  color: #499e10;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+  outline: none;
+  border-radius: 0.25rem;
+  &:focus{
+    border-color: transparent;
+    box-shadow: none;
+    border: 1px solid #499e10;
+  }
+}
+
+.modal_subtitle {
+  font-size: 16px;
+}
+
+.fancybox-content {
+  width: 600px;
+}
+
+.to_send_modal_window {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  background-color: #499e10;
+  padding: 10px 25px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #58b31c;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  &:active{
+    background-color: #3d880a;
+  }
+}
+
+// Анимация модального окна
+
+.animated-modal {
+  max-width: 550px;
+  border-radius: 4px;
+  overflow: hidden;
+
+  transform: translateY(-50px);
+  transition: all .7s;
+}
+
+.animated-modal h2,
+.animated-modal p {
+  transform: translateY(-50px);
+  opacity: 0;
+
+  transition-property: transform, opacity;
+  transition-duration: .4s;
+}
+
+/* Final state */
+.fancybox-slide--current .animated-modal,
+.fancybox-slide--current .animated-modal h2,
+.fancybox-slide--current .animated-modal p {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Reveal content with different delays */
+.fancybox-slide--current .animated-modal h2 {
+  transition-delay: .1s;
+}
+
+.fancybox-slide--current .animated-modal p {
+  transition-delay: .3s;
+}
