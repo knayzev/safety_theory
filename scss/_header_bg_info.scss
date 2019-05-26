@@ -7,7 +7,7 @@
 }
 
 .box_green_info_bg {
-    padding: 136px 0px;
+    padding: 150px 0px;
     @media screen and (max-width: 1200px) {
         padding: 50px 0px;
     }    
@@ -15,7 +15,7 @@
 
 .box_info_green {
     background-color: #499e10;
-    padding: 90px 65px;
+    padding: 65px 65px;
     @media screen and (max-width: 1420px) {
         padding: 35px;
     }   
@@ -36,6 +36,9 @@
     color: #fff;
     font-weight: 300;
     padding: 15px 0px 25px;
+    @media screen and (max-width: 1200px) {
+        font-size: 14px;
+      }
 }
 
 .box_pops {

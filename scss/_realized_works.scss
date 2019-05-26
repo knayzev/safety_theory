@@ -18,12 +18,15 @@
 .box_realized_works{
     position: relative;
     &:hover{
+        margin-top: -5px;
         transition: 0.3s;
-        box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
+        box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);      
+   
     }
     @media screen and (max-width: 1200px) {
         margin-bottom: 25px;
     }
+    
 }
 
 .tag{
