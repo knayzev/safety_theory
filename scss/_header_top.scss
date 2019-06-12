@@ -102,13 +102,13 @@
             padding: 10px 15px;
             font-size: 12px;
          }
-        border: 1px solid #499e10;
+        background-color: #499e10;
         padding: 10px 30px;
         border-radius: 20px;
         text-decoration: none;
-        color: #499e10;
+        color: #fff;
         &:hover{
-            background-color: #499e1015;
+            background-color: #3c800f;
             transition: 0.3s;
         }
     }

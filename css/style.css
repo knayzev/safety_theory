@@ -33,6 +33,10 @@ body {
   .header_top_items {
     display: none; } }
 
+@media screen and (max-width: 320px) {
+  .disabled_block {
+    display: none; } }
+
 .header_top {
   padding: 35px;
   background-color: #f7f7f7; }
@@ -92,17 +96,17 @@ body {
   background: transparent;
   border: none; }
   .button_consultant a {
-    border: 1px solid #499e10;
+    background-color: #499e10;
     padding: 10px 30px;
     border-radius: 20px;
     text-decoration: none;
-    color: #499e10; }
+    color: #fff; }
     @media screen and (max-width: 1200px) {
       .button_consultant a {
         padding: 10px 15px;
         font-size: 12px; } }
     .button_consultant a:hover {
-      background-color: #499e1015;
+      background-color: #3c800f;
       transition: 0.3s; }
 
 .header_bg_info {
@@ -540,6 +544,9 @@ body {
       background-color: #499e1015;
       transition: 0.3s; }
 
+.kvadrat {
+  background-color: #000; }
+
 .box_bg_realized_works {
   padding: 60px 0px 60px 0px;
   background-color: #f7f7f7; }
@@ -560,6 +567,9 @@ body {
     margin-top: -5px;
     transition: 0.3s;
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09); }
+  @media screen and (max-width: 430px) {
+    .box_realized_works {
+      display: none; } }
   @media screen and (max-width: 1200px) {
     .box_realized_works {
       margin-bottom: 25px; } }
@@ -623,9 +633,21 @@ body {
     .button_all_works a:hover {
       background-color: #499e1015;
       transition: 0.3s; }
+  @media screen and (max-width: 430px) {
+    .button_all_works {
+      text-align: left; } }
   @media screen and (max-width: 1200px) {
     .button_all_works {
       padding: 25px; } }
+  @media screen and (max-width: 430px) {
+    .button_all_works {
+      padding: 0px; } }
+
+.owl-nav {
+  display: none; }
+
+.owl-dots {
+  display: none; }
 
 .reviews_box_img {
   background: url(/img/revievs.jpg) no-repeat;
@@ -650,14 +672,6 @@ body {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px; }
-  .box_reviews:hover {
-    margin-top: -5px;
-    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
-    transition: 0.2s;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s; }
   @media screen and (max-width: 1200px) {
     .box_reviews {
       margin-bottom: 25px; } }

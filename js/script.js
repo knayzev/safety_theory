@@ -1,7 +1,7 @@
 // Кнопка поиска
+window.onload = function() {
 
-$(document).ready(function() {
-  console.log('123');
+$(document).ready(function() { 
 
   $('[data-fancybox="gallery"]').fancybox({
     // Options will go here
@@ -45,10 +45,13 @@ $(document).ready(function() {
         items: 1
       },
       600: {
-        items: 3
+        items: 1
+      },
+      880: {
+        items: 1
       },
       1000: {
-        items: 5
+        items: 3
       }
     }
   })
@@ -105,3 +108,4 @@ $(document).ready(function() {
   });
 
 });
+};
