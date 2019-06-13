@@ -94,7 +94,8 @@ body {
 .button_consultant {
   padding: 15px 0px 0px 0px;
   background: transparent;
-  border: none; }
+  border: none;
+  font-size: 16px; }
   .button_consultant a {
     background-color: #499e10;
     padding: 10px 30px;
@@ -500,6 +501,9 @@ body {
 
 .box_info_about_company_right_column {
   padding: 0px 35px 0px; }
+  @media screen and (max-width: 992px) {
+    .box_info_about_company_right_column {
+      padding: 25px 0px 25px; } }
 
 .button_price {
   background: transparent;
@@ -658,7 +662,7 @@ body {
   padding: 60px 0px 60px 0px; }
   @media screen and (max-width: 992px) {
     .reviews_color {
-      padding: 25px 0px 25px; } }
+      padding: 60px 0px 60px; } }
 
 .subtitle_reviews {
   font-size: 14px;
@@ -953,6 +957,13 @@ body {
 .modal_subtitle {
   font-size: 16px; }
 
+.modal-body {
+  padding: 0px; }
+
+.modal-footer {
+  border-top: none;
+  align-items: left; }
+
 .fancybox-content {
   width: 600px; }
 
@@ -986,7 +997,11 @@ body {
   border-radius: 4px;
   overflow: hidden;
   transform: translateY(-50px);
-  transition: all .7s; }
+  transition: all .7s;
+  -webkit-transition: all .7s;
+  -moz-transition: all .7s;
+  -ms-transition: all .7s;
+  -o-transition: all .7s; }
 
 .animated-modal h2,
 .animated-modal p {

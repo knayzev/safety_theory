@@ -29,6 +29,15 @@
   font-size: 16px;
 }
 
+.modal-body{
+  padding: 0px;
+}
+
+.modal-footer{
+  border-top: none;
+  align-items: left;
+}
+
 .fancybox-content {
   width: 600px;
 }
@@ -68,9 +77,12 @@
   max-width: 550px;
   border-radius: 4px;
   overflow: hidden;
-
   transform: translateY(-50px);
   transition: all .7s;
+  -webkit-transition: all .7s;
+  -moz-transition: all .7s;
+  -ms-transition: all .7s;
+  -o-transition: all .7s;
 }
 
 .animated-modal h2,

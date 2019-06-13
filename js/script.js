@@ -56,6 +56,8 @@ $(document).ready(function() {
     }
   })
 
+// Блокировка отправки
+
 
   // Выбрать несколько элементов
 
@@ -89,8 +91,8 @@ $(document).ready(function() {
     var $value = $(this).parent().next();
     $value.addClass("added").text($(this).val().replace(/C:\\fakepath\\/i, ''));
   });
-  $("#phone").mask("+8 (9999) 999 - 99 - 99", { completed: function () { alert("Да, этой мой номер"); } });
-  $("#phone2").mask("+8 (9999) 999 - 99 - 99", { completed: function () { alert("Да, этой мой номер"); } });
+  $("#phone").mask("+7 (999) 999 - 99 - 99", { completed: function () { alert("Да, этой мой номер"); } });
+ 
 
 
   $("#test").on('click', function() {
